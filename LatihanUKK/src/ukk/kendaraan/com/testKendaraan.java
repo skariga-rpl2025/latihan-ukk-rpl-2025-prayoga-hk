@@ -2,24 +2,22 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package ukk.karyawan.com;
+package ukk.kendaraan.com;
 
 /**
  *
  * @author LENOVO IP3
  */
-public class testkaryawan {
+public class testKendaraan {
     public static void main(String[] args) {
-        Karyawan data = new Karyawan();
-        
-        data.setNIP("1234");
-        data.setNama("yoga");
-        data.setDivisi("Backend");
+        Kendaraan bermotor = new Kendaraan();
+        bermotor.setNopol("N 3456 QSR");
+        bermotor.setmerk("Toyota corola ae101");
         
         System.out.println("======Data Karyawan======");
-        System.out.println("NIP : " + data.getNIP());
-        System.out.println("Nama : " + data.getNama());
-        System.out.println("Divisi : " + data.getDivisi());
+        System.out.println("NoPol : " + bermotor.getNopol());
+        System.out.println("Merk : " + bermotor.getmerk());
+        System.out.println("Tahun : " + bermotor.gettahun());
         System.out.println("=========================");
         
     }
